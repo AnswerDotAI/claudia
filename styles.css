@@ -1,0 +1,41 @@
+.cell {
+  margin-bottom: 1rem;
+}
+
+.cell > .sourceCode {
+  margin-bottom: 0;
+}
+
+.cell-output > pre {
+  margin-bottom: 0;
+}
+
+.cell-output:not(.cell-output-markdown) > pre,
+.cell-output:not(.cell-output-markdown) > .sourceCode > pre,
+.cell-output-stdout > pre,
+.cell-output-markdown {
+  margin-left: 0.4rem;
+  padding-left: 0.4rem;
+  margin-top: 0;
+  background: none;
+  border-left: 2px solid lightsalmon;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.cell-output > .sourceCode {
+  border: none;
+}
+
+.cell-output > .sourceCode {
+  background: none;
+  margin-top: 0;
+}
+
+div.description {
+  padding-left: 2px;
+  padding-top: 5px;
+  font-style: italic;
+  font-size: 135%;
+  opacity: 70%;
+}
